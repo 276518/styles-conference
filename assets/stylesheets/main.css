@@ -46,12 +46,15 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
 /*
   ========================================
   Custom styles
   ========================================
 */
+
 body {
+  background: #293f50;
   color: #888;
   font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -174,6 +177,14 @@ a {
 p a{
   border-bottom: 1px solid #dfe2e5;
 }
+.primary-header a,
+.primary-footer a {
+  color:#fff;
+}
+.primary-header a:hover,
+.primary-footer a:hover {
+  color: #648880;
+}
 
 /*
   ========================================
@@ -251,6 +262,7 @@ p a{
 */
 
 .hero {
+  color:#fff;
   line-height: 44px;
   padding: 22px 80px 66px 80px;
   text-align: center;
@@ -262,4 +274,3 @@ p a{
   font-size:24px;
   font-weight:100px;
 }
-
